@@ -2,7 +2,7 @@ TO RUN
 $yarn
 $yarn start
 
-I used create react app.. All the logic is in src/components/calculator.js
+I used create react app.. All the logic is in src/components/calculator/index.js
 
 TO USE
 enter negative numbers, decimals, parenthesis and any of the operations shown
