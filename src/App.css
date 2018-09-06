@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-header {
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Calculator-main{
+  height: auto;
+  width: auto;
+  background-color: #777777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5%;
+  margin-top: 20px;
+}
+
+.Calc-history{
+  overflow-y: scroll;
+  background-color:'white';
+  width: 90%;
+}
+
+.Calculator-body {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 10px;
+}
+.Calculator-body > button {
+  border-radius: 15%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0px 0;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
