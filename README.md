@@ -14,7 +14,7 @@ To use squareroot enter the number (or numbers in parenthesis)
 you wish to get the square of before pressing the SQRT() button.
 
 % only takes the percentage of the number directly preceding it and does this
-instantly in the input field. For example 5*6% turns into 5x0.06.
+instantly in the input field. For example 5x6% turns into 5x0.06.
 
 if the input field ends in an operator when submitted a 0 is concatenated on the end
 
